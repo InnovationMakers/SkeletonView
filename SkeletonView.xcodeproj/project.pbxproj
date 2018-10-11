@@ -39,6 +39,8 @@
 		42ABD07B210B54E200BEEFF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ABD073210B54E100BEEFF4 /* ViewController.swift */; };
 		42ABD07C210B54E200BEEFF4 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 42ABD074210B54E100BEEFF4 /* Base.lproj */; };
 		42ABD07F210B54E200BEEFF4 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ABD077210B54E200BEEFF4 /* CollectionViewCell.swift */; };
+		803A7E21216F9104007E6475 /* SkeletonView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 803A7E20216F9104007E6475 /* SkeletonView.podspec */; };
+		803A7E22216F9104007E6475 /* SkeletonView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 803A7E20216F9104007E6475 /* SkeletonView.podspec */; };
 		8748240D20C6A88A00E92179 /* UIView+IBInspectable.swift in Headers */ = {isa = PBXBuildFile; fileRef = F5F899CF1FAA6A4D002E8FDA /* UIView+IBInspectable.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		8748240E20C6A88E00E92179 /* ContainsMultilineText.swift in Headers */ = {isa = PBXBuildFile; fileRef = F5307E3A1FB123C100EE67C5 /* ContainsMultilineText.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		8785E3A1211C9C9800CC9DFD /* SkeletonDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8785E3A0211C9C9800CC9DFD /* SkeletonDebug.swift */; };
@@ -148,6 +150,7 @@
 		42ABD076210B54E200BEEFF4 /* SkeletonViewExampleCollectionview-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SkeletonViewExampleCollectionview-Info.plist"; sourceTree = "<group>"; };
 		42ABD077210B54E200BEEFF4 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		52D6D97C1BEFF229002C0205 /* SkeletonView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SkeletonView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		803A7E20216F9104007E6475 /* SkeletonView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SkeletonView.podspec; sourceTree = "<group>"; };
 		8785E3A0211C9C9800CC9DFD /* SkeletonDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonDebug.swift; sourceTree = "<group>"; };
 		88DEA97D1FCDBD1F006C80EF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8933C7841EB5B820000D00A4 /* SkeletonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkeletonView.swift; sourceTree = "<group>"; };
@@ -239,6 +242,7 @@
 		52D6D9721BEFF229002C0205 = {
 			isa = PBXGroup;
 			children = (
+				803A7E20216F9104007E6475 /* SkeletonView.podspec */,
 				3B83EE4520C41488005178A4 /* ContainsMultilineText.swift */,
 				3B83EE4620C41488005178A4 /* UIView+IBInspectable.swift */,
 				42ABD06F210B54BC00BEEFF4 /* Example UICollectionView */,
@@ -571,6 +575,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				803A7E22216F9104007E6475 /* SkeletonView.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +593,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				803A7E21216F9104007E6475 /* SkeletonView.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
